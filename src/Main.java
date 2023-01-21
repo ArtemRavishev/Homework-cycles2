@@ -114,7 +114,7 @@ public class Main {
         int theGapBack = currentУear-200;
         while (theGapBack<=theGapAhead) {
             theGapBack++;
-            if (theGapBack%79==0) {
+            if (theGapBack%79==0 ) {
                 System.out.println( "Комета в следующий раз пролетит в " + theGapBack+ " год ");
             }
         }
