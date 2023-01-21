@@ -16,7 +16,7 @@ public class Main {
         int salary = 15000;
         int total = 0;
         int month = 0;
-        while (total < 2_459_000 ) {
+        while (total < 2_459_000  ) {
             total = total + salary;
             month++;
             System.out.println("Месяц "+ month +" сумма накоплений равна " + total + " рублей "  );
@@ -115,7 +115,7 @@ public class Main {
         while (theGapBack<=theGapAhead) {
             theGapBack++;
             if (theGapBack%79==0 ) {
-                System.out.println( "Комета в следующий раз пролетит в " + theGapBack+ " год ");
+                System.out.println( "Комета пролетит в " + theGapBack+ " год ");
             }
         }
     }
